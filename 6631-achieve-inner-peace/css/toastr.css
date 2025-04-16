@@ -65,6 +65,7 @@ button.toast-close-button {
   right: 0;
   width: 100%;
 }
+
 .toast-bottom-center {
   bottom: 0;
   right: 0;
@@ -234,5 +235,16 @@ button.toast-close-button {
   }
   #toast-container > div.rtl {
     padding: 15px 50px 15px 15px;
+  }
+}
+
+@media only screen and (max-height: 720px) and (max-width: 767px) {
+  .toast-bottom-right {
+    top: 15px;
+    bottom: auto; /* Ensure it's not also positioned from the bottom */
+    right: 15px;
+    left: auto;
+    position: fixed;
+    z-index: 9999;
   }
 }
