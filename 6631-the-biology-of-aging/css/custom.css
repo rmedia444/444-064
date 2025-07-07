@@ -1,0 +1,514 @@
+/* font style
+--------------------------------------------------------------------------------------------------*/
+.image-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  width: 100%; /* Ensure the container takes full width */
+}
+
+.image-container img {
+  max-width: 100%; /* Ensure the image is responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+@font-face {
+  font-family: 'Averta';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Averta-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Averta';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/Averta-Semibold.otf);
+}
+
+@font-face {
+  font-family: 'Averta';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/Averta-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Averta';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/Averta-ExtraBold.otf);
+}
+
+
+/*--------------------------------------------------------------------------------------------------
+END font style */
+
+/* START for alignment
+--------------------------------------------------------------------------------------------------*/
+
+.f-12{
+  font-size: 12px!important;
+}
+
+.f-13{
+  font-size: 13px!important;
+}
+
+.f-14{
+  font-size: 14px!important;
+}
+
+.f-15{
+  font-size: 15px!important;
+}
+
+.f-16{
+  font-size: 16px!important;
+}
+
+.f-17{
+  font-size: 17px!important;
+}
+
+.f-18{
+  font-size: 18px!important;
+}
+
+.f-19{
+  font-size: 19px!important;
+}
+
+.f-20{
+  font-size: 20px!important;
+}
+
+.f-21{
+  font-size: 21px!important;
+}
+
+.f-22{
+  font-size: 22px!important;
+}
+
+.f-23{
+  font-size: 23px!important;
+}
+
+.f-24{
+  font-size: 24px!important;
+}
+
+.f-25{
+  font-size: 25px!important;
+}
+
+.f-26{
+  font-size: 26px!important;
+}
+
+.f-27{
+  font-size: 27px!important;
+}
+
+.f-28{
+  font-size: 28px!important;
+}
+
+.f-29{
+  font-size: 29px!important;
+}
+
+.f-30{
+  font-size: 30px!important;
+}
+
+.f-31{
+  font-size: 31px!important;
+}
+
+.f-32{
+  font-size: 32px!important;
+}
+
+.f-33{
+  font-size: 33px!important;
+}
+
+.f-34{
+  font-size: 34px!important;
+}
+
+.f-35{
+  font-size: 35px!important;
+}
+
+.f-36{
+  font-size: 36px!important;
+}
+
+.fw-1{
+  font-weight: 100!important;
+}
+
+.fw-2{
+  font-weight: 200!important;
+}
+
+.fw-3{
+  font-weight: 300!important;
+}
+
+.fw-4{
+  font-weight: 400!important;
+}
+
+.fw-5{
+  font-weight: 500!important;
+}
+
+.fw-6{
+  font-weight: 600!important;
+}
+
+.fw-7{
+  font-weight: 700!important;
+}
+
+/*--------------------------------------------------------------------------------------------------
+END for alignment */
+
+html {
+  background: #000a38;
+}
+
+body {
+  background: url('../images/landingPage/bg-web.png?v=2');
+  background-size: cover;
+}
+
+.text-cathryn {
+  right: 10%;
+  top: 13%;
+}
+
+.text-cathryn p,
+.text-joel p,
+.text-yuen p {
+  font: normal normal 300 22px/31px Averta;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+.text-cathryn p:first-child,
+.text-joel p:first-child,
+.text-yuen p:first-child {
+  font: normal normal 600 25px/35px Averta;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.text-joel {
+  right: 40%;
+  bottom: 30%;
+}
+
+.text-yuen {
+  right: 18%;
+  bottom: 5%;
+}
+
+.section1 p.bonusTitle {
+  text-align: left;
+  font: normal normal 600 61px/73px Averta;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.claimBtn {
+  background: transparent linear-gradient(180deg, #FFDB69 0%, #FCA502 100%) 0% 0% no-repeat padding-box;
+  border-radius: 44px;
+  font: normal normal 600 32px/38px Averta;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.section2 {
+  margin-top: 160px;
+}
+
+.section3 {
+  margin-top: 100px;
+}
+
+.section4{
+  margin-top: 55px;
+}
+
+.section5{
+  margin-top: 100px;
+}
+
+.section6{
+  margin-top: 100px;
+}
+
+.section7{
+  margin-top: 150px;
+}
+
+.sectionTitle {
+  font: normal normal 700 35px/26px Averta;
+  letter-spacing: 0px;
+  color: #ffe609;
+  text-transform: uppercase;
+}
+
+.sectionTitle1 {
+  font: normal normal 600 55px/66px Averta;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.section4 .row p {
+  position: relative;
+  font: normal normal 300 22px/26px Averta;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  bottom:20px;
+  margin-bottom: 0;
+}
+
+.section4 .row.row-cols-md-6 p,
+.section4 .row.row-cols-3 p {
+  bottom: 30px;
+}
+
+#toast-container > .toast-warning {
+  background-image: url('../images/landingPage/notification.svg') !important;
+  background-size: 12px !important;
+}
+
+.toast-warning {
+  background-color: #bfc1d6 !important;
+  box-shadow: inset 0px 3px 3px #bfc1d6, 0px 0px 5px #bfc1d6 !important;
+  border-radius: 25px!important;
+  padding: 10px 10px 10px 50px !important;
+}
+
+.toast-message {
+  color: black !important;
+}
+
+.footerTitle {
+  font: normal normal 300 24px/26px Averta;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+.section6 #myCarousel2 .img-fluid {
+  width: 50%;
+}
+
+.claimDiv {
+  margin-top: 150px;
+}
+
+.claimDiv img {
+  width: 100%;
+}
+
+.logoImg {
+  width: 165px;
+}
+
+#player {
+  width: 800px;
+  height: 400px;
+}
+
+
+@media (max-width: 1200px) {
+  .claimDiv {
+    margin-top: 30px;
+  }
+
+  .section1 p.bonusTitle {
+    text-align: center;
+    font: normal normal 600 40px/50px Averta;
+  }
+
+  .text-cathryn p,
+  .text-joel p,
+  .text-yuen p {
+    font: normal normal 300 16px/24px Averta;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+  }
+
+  .text-cathryn p:first-child,
+  .text-joel p:first-child,
+  .text-yuen p:first-child {
+    font: normal normal 600 20px/24px Averta;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 991px) {
+  .section6 #myCarousel2 .img-fluid {
+    width: 75%;
+  }
+  .claimDiv {
+    margin-top: 30px;
+  }
+  .section1 p.bonusTitle {
+    text-align: center;
+    font: normal normal 600 32px/40px Averta;
+  }
+  
+  .claimBtn {
+    font: normal normal 600 20px/24px Averta;
+    padding: 9px 20px;
+  }
+
+  .section2 {
+    margin-top: 40px;
+  }
+
+  .text-cathryn p,
+  .text-joel p,
+  .text-yuen p {
+    font: normal normal 300 13px/15px Averta;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+  }
+  
+  .text-cathryn p:first-child,
+  .text-joel p:first-child,
+  .text-yuen p:first-child {
+    font: normal normal 600 14px/16px Averta;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+
+  #player {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background: url('../images/landingPage/bg-mobile.png?v=2');
+    background-size: cover;
+  }
+
+  .sectionTitle {
+    font: normal normal 700 20px/26px Averta;
+    letter-spacing: 0px;
+    color: #ffe609;
+    text-transform: uppercase;
+  }
+  
+  .sectionTitle1 {
+    font: normal normal 600 32px/26px Averta;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+
+  .section6 #myCarousel2 .img-fluid {
+    width: 100%;
+  }
+
+  .section4 .row p {
+    font: normal normal 300 14px/36px Averta;
+  }
+
+  .section4 .row.row-cols-md-6 p,
+  .section4 .row.row-cols-3 p {
+    bottom: 25px;
+  }
+
+  .claimDiv {
+    margin-top: 0;
+  }
+
+  .claimDiv img {
+    width: 85%;
+  }
+
+  .section1 p.bonusTitle {
+    text-align: center;
+    font: normal normal 600 32px/20px Averta;
+  }
+  
+  .section1 .claimBtn {
+    font: normal normal 600 20px/24px Averta;
+    padding: 9px 20px;
+    margin-top: 87.5%;
+  }
+
+  .logoImg {
+    width: 89px;
+  }
+
+  .section2 {
+    margin-top: 27px;
+  }
+
+  .text-cathryn {
+    right: 5%;
+    top: inherit;
+    bottom: 25%;
+  }
+  
+  .text-cathryn p,
+  .text-joel p,
+  .text-yuen p {
+    font: normal normal 300 12px/15px Averta;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+  }
+  
+  .text-cathryn p:first-child,
+  .text-joel p:first-child,
+  .text-yuen p:first-child {
+    font: normal normal 600 13px/16px Averta;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+  
+  .text-joel {
+    left: 20px;
+    bottom: 40%;
+    right: inherit;
+  }
+  
+  .text-yuen {
+    right: inherit;
+    left: 13%;
+    bottom: 20%;
+  }
+
+  #player {
+    width: 100%;
+    height: 400px;
+  }
+  
+}
